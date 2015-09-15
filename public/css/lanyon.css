@@ -352,14 +352,14 @@ a.sidebar-nav-item:focus {
 
 /* Related posts */
 .related {
-  font-size: 0.85em
+  font-size: 0.85em;
   font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
 .related-posts {
-    font-size: 0.85em
+    font-size: 0.85em;
   font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   padding-left: 0;
   list-style: none;
