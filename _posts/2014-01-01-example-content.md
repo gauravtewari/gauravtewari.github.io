@@ -2,14 +2,9 @@
 layout: post
 title: Example content
 published: true
----
-
-
----
-layout: post
-title: "Example content"
 permalink: example-content/
 ---
+
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
@@ -41,14 +36,13 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
-{% highlight js %}
-// Example can be run directly in your JavaScript console
+{% highlight c %}
+#include<iostream>
+using namespace std;
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
+int main(){
+  cout << "Testing template" << endl;
+}
 // > 8
 {% endhighlight %}
 
