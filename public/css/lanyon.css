@@ -51,12 +51,94 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
 }
+h2,
+h3,
+h4,
+h5 {
+  position: relative;
+}
 
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 28px;
+
+  a {
+    color: #555;
+  }
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 32px;
+  margin-left: -30px;
+  padding-left: 30px;
+}
+
+h4 {
+  margin-left: -25px;
+  padding-left: 25px;
+}
+
+h5 {
+  font-size: 1.2em;
+  margin-left: -25px;
+  padding-left: 25px;
+}
+
+h3 a,
+h4 a,
+h5 a {
+  position: absolute;
+  left: -5px;
+  top: -10px;
+  text-decoration: none;
+  display: none;
+  padding: 10px;
+}
+
+h3:hover a,
+h4:hover a,
+h5:hover a,
+h3:focus a,
+h4:focus a,
+h5:focus a {
+  display: block;
+}
+
+ol li,
+ul li {
+  margin-bottom: 7px;
+  line-height: 1.4;
+}
+
+ul ul,
+ol ol,
+ol ul,
+ul ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  color: #f06;
+}
+
+.post-date,
+.post-num-words {
+  float: right;
+  font-style: italic;
+  color: #888;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
 
 /*
  * Wrapper
