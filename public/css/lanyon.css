@@ -343,24 +343,7 @@ a.sidebar-nav-item:focus {
   margin-top: 10px;
   font-size: 0.9em;
 }
-.post-date:after {
-  content: '\b7';
-  margin-right: 10px;
-  margin-left: 7px;
-}
- .post-date,
-  .post-num-words {
-    float: none !important;
-  }
 
-  .post-date:after {
-    content: '';
-  }
-
-  .post-date:before {
-    content: '\b7';
-  }
-  
 /* Related posts */
 .related {
   padding-top: 2rem;
