@@ -1,6 +1,7 @@
 ---
 layout: post
-title: First Page
+title: Post Editing Notes
+permalink: post-editing-notes
 ---
 
 ### Some Heading
@@ -10,4 +11,3 @@ Some random stuff
 ### Last Heading
 
 
-Thanks!
