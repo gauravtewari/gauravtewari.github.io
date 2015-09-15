@@ -5,11 +5,11 @@ published: true
 ---
 
 
-<div class="posts">
-  {% for post in paginator.posts %}
-	*{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
-  {% endfor %}
-</div>
+## Blog Posts
+
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
 
 <div class="pagination">
   {% if paginator.next_page %}
