@@ -38,11 +38,14 @@
 html,
 body {
   overflow-x: hidden;
+<<<<<<< HEAD
     border-top: 2px solid #555;
     margin: 0;
     color: #333;
     font-size: 1.1em;
     background: #fff;
+=======
+>>>>>>> parent of 86577d6... Updating lanyon css
 }
 
 html {
