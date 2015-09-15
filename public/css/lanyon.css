@@ -127,12 +127,8 @@ p {
   line-height: 1.4;
 }
 
-a {
-  color: #f06;
-}
 
-.post-date,
-.post-num-words {
+.post-date{
   float: right;
   font-style: italic;
   color: #888;
