@@ -56,6 +56,21 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+h1 {
+  margin-bottom: 4em
+}
+h1:after {
+    content:' ';
+    display:block;
+    border:1px solid #a0a0a0;
+    border-radius:2px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
 /*
  * Wrapper
  *
@@ -333,15 +348,6 @@ a.sidebar-nav-item:focus {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
-}
-
-.post-date,
-.post-num-words {
-  float: right;
-  font-style: italic;
-  color: #888;
-  margin-top: 10px;
-  font-size: 0.9em;
 }
 
 /* Related posts */
