@@ -359,7 +359,7 @@ a.sidebar-nav-item:focus {
   border-top: 1px solid #eee;
 }
 .related-posts {
-    font-size: 0.85em;
+    font-size: 0.7em;
   font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   padding-left: 0;
   list-style: none;
@@ -368,7 +368,7 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
 }
 .related-posts li small {
-  font-size: 75%;
+  font-size: 50%;
   color: #999;
 }
 .related-posts li a:hover {
