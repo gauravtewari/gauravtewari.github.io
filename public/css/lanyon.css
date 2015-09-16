@@ -120,6 +120,7 @@ h1:after {
 }
 .masthead-title {
   margin-top: 0;
+  margin-right: 1cm;
   margin-bottom: 0;
   color: #505050;
 }
