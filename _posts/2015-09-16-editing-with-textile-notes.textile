@@ -1,0 +1,50 @@
+---
+layout: post
+title: Editing Post with Textile Notes
+permalink: editing-with-textile-notes
+---
+
+h1. This is heading 1
+
+This looks like a *good* editing _format_ to use.
+
+bq. For me, where this life ends, the mystery of love begins
+
+Said by Swami Rama.
+
+h2. Definition Lists
+- coffee := Hot and black
+- milk :=
+Nourishing beverage for baby cows.
+
+Cold drink that goes great with cookies. =:
+
+h2. tables look easy
+
+|_. name|_. age|
+|Walter|5|
+|Florence|6|
+
+h4. ["**Textile** (markup language) - Wikipedia":http://en.wikipedia.org/wiki/Textile_(markup_language)]
+
+f(x, n) = log ~4~ x ^n^
+f(x, n) = log[~4~]x[^n^]
+
+Visit our "parent company (Example Corporation)":http://example.com.
+
+p{color:blue;letter-spacing:.5em}. Spacey blue
+
+p<. align left
+
+p>. align right
+
+p=. centered
+
+p<>. justified justified justified justified justified justified justified justified justified
+
+p(. Left pad 1em.
+
+p)). Right pad 2em.
+
+p(). Pad both left and right sides 1em.
+
