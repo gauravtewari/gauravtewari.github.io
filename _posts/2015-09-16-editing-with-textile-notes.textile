@@ -6,13 +6,14 @@ permalink: editing-with-textile-notes
 
 h1. This is heading 1
 
-This looks like a *good* editing _format_ to use.
+Leave a blank line after every heading. This looks like a *good* editing _format_ to use.
 
 bq. For me, where this life ends, the mystery of love begins
 
 Said by Swami Rama.
 
 h2. Definition Lists
+
 - coffee := Hot and black
 - milk :=
 Nourishing beverage for baby cows.
