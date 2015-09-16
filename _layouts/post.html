@@ -13,9 +13,11 @@ layout: default
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
+          <a style="font-size: 1.00rem;" href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+            <span style="color:#888;float: right;font-style: italic;font-size: 0.9em;">
+            {{ post.date | date_to_string }}
+            </span>
           </a>
         </h3>
       </li>
