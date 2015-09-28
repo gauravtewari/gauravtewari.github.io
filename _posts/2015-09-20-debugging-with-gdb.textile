@@ -1,0 +1,12 @@
+---
+layout: post
+title: Debugging with GDB
+permalink: debugging-with-gdb
+---
+
+h2. Saving and restoring breakpoints to a file
+
+- To Save breakpoints to a file := <pre>save breakpoints <filename></pre>
+- To read the saved breakpoint definitions from file := <pre>source <filename></pre>
+
+
