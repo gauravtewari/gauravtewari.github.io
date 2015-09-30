@@ -6,13 +6,13 @@ permalink: debugging-with-gdb
 
 h2. Saving and restoring breakpoints to a file
 
-- To Save breakpoints to a file := <code>save breakpoints \<filename\></code>
-- To read the saved breakpoint definitions from file := <code>source \<filename\></code>
+- To Save breakpoints to a file := <code>save breakpoints <filename></code>
+- To read the saved breakpoint definitions from file := <code>source <filename></code>
 
 h2. Printing values
 
-| _.Command | _. Operation | _.Example |
-| p/x | print in hexadecimal | @(gdb) p/x ptr->GetValue() |
+|_. Command |_. Operation |_.Example |
+| p/x | print in hexadecimal | @(gdb) p/x ptr->GetValue()@ |
 
 
 
